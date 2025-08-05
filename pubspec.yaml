@@ -23,7 +23,7 @@ flutter:
   plugin:
     platforms:
       android:
-        package: com.zaihui.installplugin
+        package: com.example.installplugin
         pluginClass: InstallPlugin
       ios:
         pluginClass: InstallPlugin

@@ -1,5 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.zaihui.installplugin">
+    package="com.example.installplugin">
     <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES" />
 
     <application>
@@ -7,7 +7,7 @@
             android:name="flutterEmbedding"
             android:value="2" />
         <provider
-            android:name="com.zaihui.installplugin.InstallFileProvider"
+            android:name="com.example.installplugin.InstallFileProvider"
             android:authorities="${applicationId}.installFileProvider.install"
             android:exported="false"
             android:grantUriPermissions="true">

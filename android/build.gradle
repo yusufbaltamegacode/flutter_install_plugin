@@ -1,4 +1,4 @@
-group = 'com.zaihui.installplugin'
+group = 'com.example.installplugin'
 version = '1.0-SNAPSHOT'
 
 buildscript {
@@ -15,7 +15,7 @@ buildscript {
 apply plugin: 'com.android.library'
 
 android {
-    namespace 'com.zaihui.installplugin'
+    namespace 'com.example.installplugin'
     compileSdk = 35
 
     defaultConfig {
