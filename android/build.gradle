@@ -26,28 +26,12 @@ android {
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
 
-    compileOptions {
-        sourceCompatibility JavaVersion.VERSION_1_8
-        targetCompatibility JavaVersion.VERSION_1_8
-    }
-
-    kotlinOptions {
-        jvmTarget = "1.8"
-    }
-
     sourceSets {
         main.java.srcDirs += 'src/main/kotlin'
     }
 
     lintOptions {
         disable 'InvalidPackage'
-    }
-}
-
-// Kotlin derleyici seçeneklerini buraya koyuyoruz:
-tasks.withType(org.jetbrains.kotlin.gradle.tasks.KotlinCompile).configureEach {
-    kotlinOptions {
-        jvmTarget = "1.8"
     }
 }
 
