@@ -1,7 +1,7 @@
 plugins {
     id 'com.android.library'
-    id 'org.jetbrains.kotlin.android'
-    id 'dev.flutter.plugin.gradle-plugin' // Flutter plugin bildirimi
+    id "kotlin-android"
+    
 }
 
 group = 'com.example.installplugin'
