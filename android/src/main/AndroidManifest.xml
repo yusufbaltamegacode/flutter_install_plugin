@@ -1,5 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-  package="com.example.installplugin">
+    package="com.zaihui.installplugin">
     <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES" />
 
     <application>
@@ -13,7 +13,7 @@
             android:grantUriPermissions="true">
             <meta-data
                 android:name="android.support.FILE_PROVIDER_PATHS"
-                android:resource="@xml/provider_install_paths"/>
+                android:resource="@xml/provider_install_paths" />
         </provider>
     </application>
 </manifest>
